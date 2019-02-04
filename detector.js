@@ -1,10 +1,10 @@
 //Function to the css rule
 function checkMode(){
-    if ($(".detectorClass").css("color") == "black" ){
+    if ($(".detectorClass").css("float") == "right" ){
         // your dark mode code here
-        $("#modePara").text("Dark mode?");
+        $("#modePara").text("Dark mode!");
     } else {
-        // probably light mode
-        $("#modePara").text("Light mode?");
+        // your light mode code goes here
+        $("#modePara").text("Light mode!");
     }
 }
